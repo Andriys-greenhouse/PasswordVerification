@@ -25,13 +25,13 @@
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Column="1" Grid.Row="1" Text="Sign In" FontSize="45" Grid.ColumnSpan="3"/>
-        <TextBlock Grid.Column="1" Grid.Row="2" Text="Username:" FontSize="25"/>
-        <TextBlock Grid.Column="1" Grid.Row="3" Text="Password:" FontSize="25"/>
+        <TextBlock Grid.Column="1" Grid.Row="1" Text="Sign In" FontSize="40" Grid.ColumnSpan="3"/>
+        <TextBlock Grid.Column="1" Grid.Row="2" Text="Username:" FontSize="20"/>
+        <TextBlock Grid.Column="1" Grid.Row="3" Text="Password:" FontSize="20"/>
 
-        <TextBox x:Name="UsernameTextBox" Grid.Column="2" Grid.Row="2" Width="200" Height="30" Margin="5" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="PasswordTextBox" Grid.Column="2" Grid.Row="3" Width="200" Height="30" Margin="5" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="UsernameTextBox" Grid.Column="2" Grid.Row="2" Width="200" Height="25" Margin="5" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="PasswordTextBox" Grid.Column="2" Grid.Row="3" Width="200" Height="25" Margin="5" Grid.ColumnSpan="2"/>
 
-        <Button x:Name="SignInButton" Grid.Column="1" Grid.Row="4" Content="Sign In"  FontSize="20" Margin="5" Click="SignInButton_Click"/>
+        <Button x:Name="SignInButton" Grid.Column="1" Grid.Row="4" Content="Sign In"  FontSize="15" Margin="5" Click="SignInButton_Click"/>
     </Grid>
 </Window>

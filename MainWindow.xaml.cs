@@ -39,7 +39,7 @@ namespace PasswordVerification
                 Grid.SetColumn(newBtn, 2);
                 Grid.SetRow(newBtn, 4);
                 newBtn.Content = "Confirm and leave";
-                newBtn.FontSize = 20;
+                newBtn.FontSize = 15;
                 newBtn.Margin = new Thickness(5);
                 newBtn.Click += ConfirmButton_Click;
                 SignInGrid.Children.Add(newBtn);
